@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul li{
+            color: white;
+        }
+        ul li:nth-child(1) a {
+            color: green;
+            background-color: yellow;
+        }
+        ul li:nth-child(2) a {
+            color: blue;
+            background-color: purple;
+        }       
+    </style>
+</head>
+<link rel="stylesheet" href="style.css">
+
+<body>
+<h1 class="head">This is a h1 heading with head as a class.</h1>
+<h2 class="head" id="bglime">This is a h2 heading with <span style="color: red; background-color: inherit;">"head"</span> as a class and bglime as an id.</h2>
+<h4 class="head">This is a h4 heading with head as a class.</h4>   
+<p>This is a p paragraph tag without any id or class styled using "p" element selector.</p> 
+<p id="para">This is a p paragraph tag with para as an id.</p>
+<p>This is a p <span style="color: black; font-size: larger;">paragraph</span> tag without any id or class styled using "p" element selector.</p> 
+<b><p style="color: black;">Show this output without inline CSS nor using class or id for "a" tag.</p></b>
+<ul class="linkstyle">
+    <li>Click <a href="#">here</a> to go to UpskillMafia.</li>
+    <li>Click <a href="#">here</a> to go to Google.</li>
+</ul>
+<ol>
+    <li>This is li tag without any id or class.</li>
+    <li style="color: blue;">This is li tag without any id or class and is in blue color.</li>
+    <li style="color: red;">This is li tag without any id or class and is in red color.</li>
+    <li>This is li tag without any id or class.</li>
+    <li>This is li tag without any id or class.</li>
+</ol>
+</body>
+</html>
